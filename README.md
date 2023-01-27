@@ -22,10 +22,10 @@ After following these steps you must create a virtual environment and activate i
 
 To deactivate the environment just type in the console: deactivate.
 
-## FastAPI
-The next step would be to install the framework you worked with in the project and run it:
+## Requirements.txt
+The next step would be to install all the packages required in the project, which are described in the requirements.txt, with the following command and run it:
 
-1. pip install fastapi uvicorn
+1. pip install -r requirements.txt
 
 2. uvicorn main:app --reload
 
